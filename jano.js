@@ -56,7 +56,7 @@ const embed = new Discord.MessageEmbed()
 **[ click here ](https://discord.gg/583jtcdb5b)**
  `)
     
-    .setFooter(` System bot ✨ | Coded by , JANO`, jano.user.avatarURL)
+    .setFooter(` System bot ✨ | Coded by , Davos`, jano.user.avatarURL)
     .setURL("https://discord.gg/583jtcdb5b")
       
     message.channel.send(embed);
