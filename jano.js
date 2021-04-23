@@ -22,14 +22,14 @@ const listener = app.listen(process.env.PORT, () => {
 const Discord = require ("discord.js")
 const moment = require ("moment")
 const jano = new Discord.Client();
-const prefix = "j!";
+const prefix = "C!";
 
 
 jano.login("ODIwNDA0MDExODYwNzU0NDMy.YE0qxg.cV60GXNSWVhcLUXf8voDVvTyh1o");
 jano.on("ready", async () => {
   console.log(`Logged in as ${jano.user.username}!`);
   jano.user.setStatus("ONLINE");
-  jano.user.setActivity(`${prefix}help`, { type: "WATCHING" });
+  jano.user.setActivity(`${prefix}help Davos Up`, { type: "WATCHING" });
   jano.guilds.cache.forEach(g => {
     if (g.member(jano.user).hasPermission("ADMINISTRATOR")) {
       g.fetchInvites().then(guildInvites => {});
@@ -44,7 +44,7 @@ if (message.content === prefix +"help") {
 const embed = new Discord.MessageEmbed()
 .setColor("BLACK")
 .setThumbnail("https://media.tenor.com/images/85500641e177bccfc805cac8a2805e3f/tenor.gif")
-.setAuthor("Prefix [ j! ]","https://i.imgur.com/Y9N3OCy.gif?noredirect")
+.setAuthor("Prefix [ C! ]","https://i.imgur.com/Y9N3OCy.gif?noredirect")
 .setDescription(` 
 **
 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 [change channel]
