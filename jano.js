@@ -25,7 +25,7 @@ const jano = new Discord.Client();
 const prefix = "j!";
 
 
-jano.login("Nzk5MjI4MTc5Nzg0Nzk0MTgz.YAAhPw.G1toaOZWt7G_qGob9xqSoGA96co");
+jano.login("ODIwNDA0MDExODYwNzU0NDMy.YE0qxg.cV60GXNSWVhcLUXf8voDVvTyh1o");
 jano.on("ready", async () => {
   console.log(`Logged in as ${jano.user.username}!`);
   jano.user.setStatus("ONLINE");
@@ -51,13 +51,13 @@ const embed = new Discord.MessageEmbed()
 𝐋𝐞𝐟𝐭 [change channel]
 **
 **[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=799228179784794183&permissions=8&scope=bot)** 
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=820404011860754432&permissions=8&scope=bot)** 
 **[ support ]**
-**[ click here ](https://discord.gg/3wykSpqjZq)**
+**[ click here ](https://discord.gg/583jtcdb5b)**
  `)
     
     .setFooter(` System bot ✨ | Coded by , JANO`, jano.user.avatarURL)
-    .setURL("https://discord.gg/3wykSpqjZq")
+    .setURL("https://discord.gg/583jtcdb5b")
       
     message.channel.send(embed);
       message.react("<a:jano_27:799630916820795422>");
@@ -101,7 +101,7 @@ jano.on("guildMemberAdd", member => {
     .setFooter(`**${member.guild.name}**`)
     .setTimestamp()
     .setImage(
-      "https://media.discordapp.net/attachments/806608889805537309/808492139172200458/ImpracticalFearfulEsok-max-1mb.gif"
+      "https://cdn.discordapp.com/attachments/834862110877155328/835302133355118602/image0.gif"
     )
     .setFooter(`${member.guild.name}`)
     .setTimestamp();
@@ -119,7 +119,7 @@ jano.on("guildMemberRemove", member => {
       `left`
     )
     .setImage(
-      "https://thumbs.gfycat.com/ChiefBiodegradableAmericanalligator-size_restricted.gif"
+      "https://cdn.discordapp.com/attachments/834862110877155328/835302133355118602/image0.gif"
     )
     .setColor("RANDOM")
     .setThumbnail(jano)
@@ -165,7 +165,7 @@ jano.on("guildMemberAdd", member => {
     .setFooter(`**${member.guild.name}**`)
     .setTimestamp()
     .setImage(
-      "https://media.discordapp.net/attachments/806608889805537309/808492139172200458/ImpracticalFearfulEsok-max-1mb.gif"
+      "https://cdn.discordapp.com/attachments/834862110877155328/835302133355118602/image0.gif"
     )
     .setFooter(`${member.guild.name}`)
     .setTimestamp();
