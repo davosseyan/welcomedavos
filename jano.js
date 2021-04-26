@@ -81,12 +81,12 @@ jano.on("guildMemberAdd", member => {
     .addField(
       "| ***name*** : ",
       `${member}
-    _ _ _ _ _ _ _ _ _`
+    -------------`
     )
     .addField(
       "| ***Welcome*** ",
       `Welcome to the Black Hat, ${member}
-    _ _ _ _ _ _ _ _ _`
+    -------------`
     )
     .addField(
       "| ***User*** :",
@@ -95,7 +95,7 @@ jano.on("guildMemberAdd", member => {
     .addField(
       "| **Member Number**",
       `${member.guild.memberCount}
-      _ _ _ _ _ _ _ _ _`
+     -------------`
     )
     .addField("Server", `${member.guild.name}`, true)
     .setFooter(`**${member.guild.name}**`)
