@@ -74,28 +74,28 @@ jano.on("guildMemberAdd", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(
-      `**A new member just arrived**`
+      `***Welcome server Black Hat***`
     )
     .setColor("RANDOM")
     .setThumbnail(jano)
     .addField(
-      "| **name** : ",
+      "| ***name*** : ",
       `${member}
-    · · • • • ✤ • • • · ·`
+    _ _ _ _ _ _ _ _ _`
     )
     .addField(
-      "| **Welcome**",
-      `Welcome to the server, ${member}
-    · · • • • ✤ • • • · ·`
+      "| ***Welcome*** ",
+      `Welcome to the Black Hat, ${member}
+    _ _ _ _ _ _ _ _ _`
     )
     .addField(
-      "| **User** :",
+      "| ***User*** :",
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "| **Your are the member**",
+      "| **Member Number**",
       `${member.guild.memberCount}
-      · · • • • ✤ • • • · ·`
+      _ _ _ _ _ _ _ _ _`
     )
     .addField("Server", `${member.guild.name}`, true)
     .setFooter(`**${member.guild.name}**`)
