@@ -60,7 +60,7 @@ const embed = new Discord.MessageEmbed()
     .setURL("https://discord.gg/583jtcdb5b")
       
     message.channel.send(embed);
-      message.react("<a:jano_27:799630916820795422>");
+      message.react("");
   }
 });
 //////////////
@@ -74,26 +74,26 @@ jano.on("guildMemberAdd", member => {
   if (!channel) return;
   const joinembed = new Discord.MessageEmbed()
     .setTitle(
-      `<a:jano_10:799629559217389608>**A new member just arrived**<a:jano_10:799629559217389608>`
+      `**A new member just arrived**`
     )
     .setColor("RANDOM")
     .setThumbnail(jano)
     .addField(
-      "<a:jano_28:799630995317850152>| **name** : ",
+      "| **name** : ",
       `${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:jano_13:804354511355117598>| **Welcome**",
+      "| **Welcome**",
       `Welcome to the server, ${member}
     · · • • • ✤ • • • · ·`
     )
     .addField(
-      "<a:jano_14:804354530606186527><a:jano_15:804354549653438534>| **User** :",
+      "| **User** :",
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "<a:jano_10:799629559217389608>| **Your are the member**<a:jano_10:799629559217389608>",
+      "| **Your are the member**",
       `${member.guild.memberCount}
       · · • • • ✤ • • • · ·`
     )
@@ -124,8 +124,8 @@ jano.on("guildMemberRemove", member => {
     .setColor("RANDOM")
     .setThumbnail(jano)
     .addField("👥|𝐍𝐀𝐌𝐄:", `${member}`)
-    .addField("<a:jano_13:799300705323188285>├baxerche mle shkaw┤<a:jano_13:799300705323188285>", `!`)
-    .addField("✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶;(",   "<a:jano_12:799299644055748632>naya aw servera<a:jano_12:799299644055748632>")
+    .addField("├baxerche mle shkaw┤", `!`)
+    .addField("✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶;(",   "naya aw servera<a:")
     .addField(
       "⳺☟مــیــمــبەرەکــان ماوە⳻",
       `${member.guild.memberCount}` + " ڪــەس"
@@ -143,23 +143,23 @@ jano.on("guildMemberAdd", member => {
       `__**A new member just arrived!**__`
     )
     .addField(
-      "<a:jano_28:799630995317850152>| name : ",
+      "| name : ",
       `${member}
-    · · • • • ✤ • • • · ·`
+    _ _ _ _ _ _ _ _ _`
     )
     .addField(
-      "<a:jano_28:799630995317850152>| Welcome",
+      "| Welcome",
       `Welcome to the server, ${member}
-    · · • • • ✤ • • • · ·`
+    _ _ _ _ _ _ _ _ _`
     )
     .addField(
-      " <a:jano_16:799306063714451476>| User :",
+      " | User :",
       "**[" + `${member.id}` + "]**"
     )
     .addField(
-      "<a:jano_16:799306063714451476>| Your are the member",
+      "| Your are the member",
       `${member.guild.memberCount}
-      · · • • • ✤ • • • · ·`
+      _ _ _ _ _ _ _ _ _`
     )
     .addField("Server", `${member.guild.name}`, true)
     .setFooter(`**${member.guild.name}**`)
